@@ -17,7 +17,10 @@ const config = {
 			assets: 'build',
 			fallback: undefined,
 			precompress: false,
-			strict: true
+			strict: true,
+			paths: {
+				base: "https://antonio225t.github.io/manga-bubble-generator/"
+			}
 		})
 	}
 };
